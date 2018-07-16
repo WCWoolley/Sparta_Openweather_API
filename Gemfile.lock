@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    faker (1.9.1)
+      i18n (>= 0.7)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    i18n (1.0.1)
+      concurrent-ruby (~> 1.0)
+    json (2.1.0)
+    multi_xml (0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faker
+  httparty
+  json
+
+BUNDLED WITH
+   1.16.2
