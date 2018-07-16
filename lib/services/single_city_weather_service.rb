@@ -24,4 +24,36 @@ class SingleCityWeather
     @city['weather']
   end
 
+  def get_cod
+    @city['cod']
+  end
+
+  def get_coords
+    @city['coord']
+  end
+
+  def get_lon
+    get_coords['lon']
+  end
+
+  def get_lat
+    get_coords['lat']
+  end
+
+  def get_main
+    @city['main']
+  end
+
+  def get_min_temp
+    get_main['temp_min']
+  end
+
+  def get_max_temp
+    get_main['temp_max']
+  end
+
+  def get_temp
+    get_main['temp']
+  end
+
 end
